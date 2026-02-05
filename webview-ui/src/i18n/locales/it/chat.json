@@ -324,6 +324,10 @@
 			"description": "I messaggi più vecchi sono stati rimossi dalla conversazione per rimanere entro il limite della finestra di contesto. Questo è un approccio veloce ma meno conservativo del contesto rispetto alla condensazione."
 		}
 	},
+	"skill": {
+		"wantsToLoad": "Roo vuole caricare una competenza",
+		"didLoad": "Roo ha caricato una competenza"
+	},
 	"followUpSuggest": {
 		"copyToInput": "Copia nell'input (o Shift + clic)",
 		"timerPrefix": "Approvazione automatica abilitata. Selezione tra {{seconds}}s…"
@@ -340,7 +344,9 @@
 		},
 		"release": {
 			"heading": "Novità:",
-			"intelligentContextCondensation": "Condensazione Intelligente del Contesto v2: Una rielaborazione completa dell'algoritmo utilizzato per gestire la finestra di contesto. Ora puoi eseguire attività più a lungo senza che Roo perda qualità."
+			"parallelTools": "Chiamate di strumenti paralleli: Gli strumenti ora si eseguono in parallelo per impostazione predefinita, accelerando significativamente le operazioni multi-file e le attività complesse.",
+			"readFileIndentation": "Lettura di file più intelligente: La nuova modalità di indentazione estrae blocchi di codice semantico completi (funzioni, classi) senza troncamento a metà funzione—ideale quando si prendono di mira linee specifiche dai risultati di ricerca.",
+			"readCommandOutput": "Output terminale senza perdite: Il nuovo strumento read_command_output recupera l'output completo del comando dalle esecuzioni troncate con paginazione e filtro regex."
 		},
 		"cloudAgents": {
 			"heading": "Novità nel Cloud:",
@@ -504,5 +510,8 @@
 		"serversPart_other": "{{count}} server MCP",
 		"messageTemplate": "Hai {{tools}} abilitate via {{servers}}. Un numero così alto può confondere il modello e portare a errori. Prova a mantenerlo sotto {{threshold}}.",
 		"openMcpSettings": "Apri impostazioni MCP"
+	},
+	"readCommandOutput": {
+		"title": "Roo read command output"
 	}
 }

@@ -325,6 +325,10 @@
 			"description": "Các tin nhắn cũ hơn đã bị xóa khỏi cuộc trò chuyện để giữ trong giới hạn cửa sổ ngữ cảnh. Đây là cách tiếp cận nhanh nhưng ít bảo toàn ngữ cảnh hơn so với cô đọng."
 		}
 	},
+	"skill": {
+		"wantsToLoad": "Roo muốn tải một kỹ năng",
+		"didLoad": "Roo đã tải một kỹ năng"
+	},
 	"followUpSuggest": {
 		"copyToInput": "Sao chép vào ô nhập liệu (hoặc Shift + nhấp chuột)",
 		"timerPrefix": "Phê duyệt tự động được bật. Chọn trong {{seconds}}s…"
@@ -341,7 +345,9 @@
 		},
 		"release": {
 			"heading": "Tính năng mới:",
-			"intelligentContextCondensation": "Cô đọng Ngữ cảnh Thông minh v2: Viết lại hoàn toàn thuật toán quản lý cửa sổ ngữ cảnh. Bây giờ bạn có thể chạy các tác vụ lâu hơn mà không làm giảm chất lượng của Roo."
+			"parallelTools": "Gọi Công cụ Song song: Các công cụ hiện chạy song song theo mặc định, tăng tốc độ đáng kể cho các hoạt động đa tệp và tác vụ phức tạp.",
+			"readFileIndentation": "Đọc tệp thông minh hơn: Chế độ thụt lề mới trích xuất các khối mã ngữ nghĩa hoàn chỉnh (hàm, lớp) mà không cắt ngắn ở giữa hàm—lý tưởng khi nhắm mục tiêu các dòng cụ thể từ kết quả tìm kiếm.",
+			"readCommandOutput": "Đầu ra Thiết bị đầu cuối Không mất dữ liệu: Công cụ read_command_output mới lấy đầu ra lệnh đầy đủ từ các thực thi bị cắt ngắn với phân trang và lọc regex."
 		},
 		"cloudAgents": {
 			"heading": "Mới trên Cloud:",
@@ -505,5 +511,8 @@
 		"serversPart_other": "{{count}} máy chủ MCP",
 		"messageTemplate": "Bạn đã bật {{tools}} qua {{servers}}. Số lượng lớn như vậy có thể khiến mô hình bối rối và dẫn đến lỗi. Cố gắng giữ nó dưới {{threshold}}.",
 		"openMcpSettings": "Mở cài đặt MCP"
+	},
+	"readCommandOutput": {
+		"title": "Roo read command output"
 	}
 }
